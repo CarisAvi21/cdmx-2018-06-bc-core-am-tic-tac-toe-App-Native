@@ -1,11 +1,14 @@
 {
   "expo": {
     "name": "cdmx-2018-06-bc-core-am-tic-tac-toe-App-Native",
-    "description": "This project is really great.",
-    "slug": "cdmx-2018-06-bc-core-am-tic-tac-toe-App-Native",
+    "description": "¡Este juego del gato, o tic-tac-toe esta inspirado en el football americano, espero lo disfrutes!",
+    "slug": "football-tic-tac-toe",
     "privacy": "public",
     "sdkVersion": "31.0.0",
-    "platforms": ["ios", "android"],
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,6 +25,7 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "githubUrl": "https://github.com/CarisAvi21/cdmx-2018-06-bc-core-am-tic-tac-toe-App-Native"
   }
 }

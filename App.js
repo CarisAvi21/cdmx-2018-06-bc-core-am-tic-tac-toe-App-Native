@@ -107,7 +107,7 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
 
-        <Text style={{paddingBottom:30, color:'green', fontSize:45}}>Tic-Tac-Toe</Text>
+         <Text style={{paddingBottom:30, color:'#FAFAFA', fontSize:45}}>Tic-Tac-Toe</Text>
 
         <View style={{flexDirection: "row"}}>
           <TouchableOpacity onPress={() => this.onTilePress(0, 0)} style={[styles.tile, {borderLeftWidth: 0, borderTopWidth: 0 }]}>
@@ -144,7 +144,7 @@ export default class App extends React.Component {
         </View>
 
         <View style={{paddingTop:50}}/>
-        <Button title='New Game' onPress={this.onNewGamePress} />
+        <Button title='New Game' color="#FE642E" onPress={this.onNewGamePress} />
 
       </View>
     );
@@ -154,14 +154,14 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    color: 'blue',
-    backgroundColor: 'black',
+    color: '#298A08',
+    backgroundColor: '#298A08',
     alignItems: 'center',
     justifyContent: 'center',
   },
   tile: {
     borderWidth: 5,
-    borderColor: 'yellow',
+    borderColor: '#FFFF00',
     width: 100,
     height: 100,
     alignItems: 'center',
@@ -172,7 +172,7 @@ const styles = StyleSheet.create({
     fontSize: 60,
   },
   tileO: {
-    color: 'gray',
+    color: '#BDBDBD',
     fontSize: 50,
   },
 });
