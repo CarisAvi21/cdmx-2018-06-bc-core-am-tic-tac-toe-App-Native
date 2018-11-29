@@ -1,4 +1,5 @@
 # Tic tac toe - App Native
+![tic-tac-toe-football](https://user-images.githubusercontent.com/39393016/49201624-50592280-f367-11e8-9b40-294215d1935b.png)
 
 ## Preámbulo
 
